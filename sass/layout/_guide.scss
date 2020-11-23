@@ -1,0 +1,49 @@
+
+.guide {
+    text-align: center;
+
+
+    &__heading {
+        margin-bottom: 100px;
+        padding-bottom: 50px;
+        padding-bottom: 5rem;
+        line-height: 1 !important;
+    }
+
+    &__icon {
+        width: 81px;
+        display: inline-block;
+        justify-self: center;
+        align-items: flex-end;
+
+    }
+
+    &__item {
+        position: relative;
+    }
+}
+
+.sub-heading {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.dotted-arrow {
+    position: absolute;
+    top: 25px;
+    width: 120px;
+    height: 38px;
+    background-image: url(../image/dotted-arrow-right.png);
+    background-position: 0px 0px;
+    background-size: 119px;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.before {
+    left: -75px;
+}
+
+.after {
+    right: -75px;
+}

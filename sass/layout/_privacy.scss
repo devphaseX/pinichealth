@@ -1,0 +1,50 @@
+
+.paragraph-h {
+    margin: {
+        top: 2rem;
+        bottom: 1rem;
+    };
+}
+
+.privacy {
+    &__box {
+        display: flex;
+    }
+
+
+    &__container {
+        padding-left: 50px;
+    }
+
+    &__item {
+        display: flex;
+        max-width: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    &__image {
+            max-width: 100%;
+            vertical-align: middle;
+        &--1 {
+            width: 56px;
+        }
+
+        &--2 {
+            width: 40px;
+        }
+        
+        &--3 {
+            width: 59px;
+        }
+
+        &--4 {
+            width: 58.5px;
+        }
+    }
+
+    &__content {
+        margin-left: 30px;
+    }
+}

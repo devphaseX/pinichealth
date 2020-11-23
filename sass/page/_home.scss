@@ -1,0 +1,59 @@
+
+
+.section-overview {
+    padding: {
+        top: 15rem;
+        bottom: 10rem;
+    }
+}
+
+.section-timeline {
+    padding: {
+        bottom: 20rem;
+    };
+    margin-top: 6rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-guide {
+    background-color: $colour-bkg-skyblue;
+    margin: 10rem 5rem;
+    border-radius: 20px;
+    padding: {
+        top: 5rem;
+        bottom: 7rem;
+    };
+}
+
+.section-testimonial {
+    margin: {
+        right: 50px;
+        left: 50px;
+    };
+    padding: {
+        top: 40px;
+        bottom: 40px;
+    }
+}
+
+.section-split-info {
+    margin: {
+        top: 60px;
+        bottom: 100px;
+    };
+}
+
+.section-cta {
+    margin: {
+        left: 50px;
+        right: 50px;
+    };
+    padding: {
+        top: 100px;
+        bottom: 100px;
+    };
+    background-color: $colour-black;
+    border-radius: 25px;
+    text-align: center;
+}

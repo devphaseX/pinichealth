@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}

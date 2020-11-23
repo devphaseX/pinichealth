@@ -1,0 +1,95 @@
+
+html {
+    font-size: 62.5%; // 10rem = 1rem
+}
+
+body {
+    color: $colour-black;
+    font: {
+        family: $font-family;
+        font-weight: 400;
+    }
+    line-height: 1.7;
+}
+
+%heading {
+    font: {
+        weight: 700;
+    }
+    color: $text-colour-1;
+    margin: 0;
+}
+
+.primary-heading {
+    @extend %heading;
+    font: {
+        size: $primary-font;
+    }
+    max-width: 56%;
+    line-height: 1;
+    margin: 0 {
+        top: 2rem;
+        bottom: 4rem;
+    }
+}
+
+.secondary-heading {
+    @extend %heading;
+    font: {
+        size: $secondary-font;
+    }
+}
+
+.tertiary-heading {
+    @extend %heading;
+    font: {
+        size: $tertiary-font;
+    }
+    line-height: 1.2;
+
+    &--white {
+        color: $text-white;
+    }
+}
+
+.heading-4 {
+    @extend %heading;
+    font: {
+        size: $tertiary-font-small;
+        weight: 700;
+    }
+    line-height: 30px;
+    margin: {
+        top: 1rem;
+        bottom: 1rem;
+    };
+
+    &__1 {
+        line-height: 1;
+        margin-top: 0rem;
+    }
+}
+
+h6 {
+    margin: 0;
+    line-height: 1;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font: {
+        size: $text-font;
+        weight: 400;
+    }
+    line-height: 1.4444;
+}
+
+.heading-divider {
+    background: url(../../image/heading-divider.png);
+    background-position: 50% 100%;
+    background-size: 58px;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}

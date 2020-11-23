@@ -1,0 +1,88 @@
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    &-logo {
+        width: 200px;
+    }
+
+    &--items {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    &--item {
+        font: {
+            size: 1.6rem;
+            weight: 500;
+        }
+        padding: 10px 0px 10px;
+        margin: 0px 20px 0px 8px;
+        a {
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: $colour-black;
+                display: inline-block;
+                transition: all .5s;
+            }
+
+            &:hover,
+            &:active {
+                color: $colour-blue;
+            }
+        }
+    }
+
+    &--btn {
+        font: {
+            family: inherit;
+            size: 1.4rem;
+            weight: 700;
+        }
+        text: {
+            transform: uppercase;
+            decoration: none;
+        }
+        color: $colour-purple;
+        display: inline-block;
+        margin-left: 8px;
+        padding: 10px 20px 10px 45px;
+        border: 2px solid #dfe4ea{
+            radius: 100px 100px 100px 0px;
+        }
+        background: {
+            image: url(../image/5e5eda1226f4ffa47f659b02_logo-pattern-mark.svg);
+            size: 17px;
+            repeat: no-repeat;
+            position: 10px 50%;
+        }
+        line-height: 1.1;
+    }
+}
+
+.hero-content {
+    padding: calc(30rem - 9rem) 0rem 15rem 0rem;
+    position: relative;
+
+    p {
+        margin-bottom: 30px;
+        padding-right: 20px;
+        font: {
+            size: 2.1rem;
+        }
+        color: $text-colour-1;
+        max-width: 50%;
+    }
+}
+
+.hero-bkg {
+    height: 520px;
+    position: absolute;
+    right: -20px;
+    top: 4rem;
+}
